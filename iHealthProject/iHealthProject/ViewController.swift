@@ -28,7 +28,7 @@ class ViewController: UIViewController, WKUIDelegate{
     @IBOutlet weak var showBirth: UILabel!
     
     @IBAction func loadStep(sender:AnyObject) {
-        url = "https://www.baidu.com"
+        url = "http://39.106.156.178/iHealth/4.png"
     }
     
     @IBAction func loadHearRate(sender:AnyObject) {
@@ -67,14 +67,14 @@ class ViewController: UIViewController, WKUIDelegate{
         var url:URL = URL(string: "http://39.106.156.178/test.php")!
         var postString:String = "name=\(singupName.text!)&email=\(signupEmail.text!)&password=\(signupPassword.text!)&weight=\(signupWeight.text!)&height=\(signupHeight.text!)&birthday=\(signupBirthday.date)&sex=\(signupSex.selectedSegmentIndex)"
         postRequest(url: url, postString: postString)
-    }
+    }/*
     @IBOutlet weak var editName: UITextField!
     @IBOutlet weak var editWeight: UITextField!
-    @IBOutlet weak var editHeight: UITextField!
+    @IBOutlet weak var editHeight: UITextField!*/
     @IBAction func profileEdit(_ sender: UIButton) {
-        var postString:String = "name=\(editName.text!)&weight=\(editWeight.text!)&height=\(editHeight.text!)"
+        /*var postString:String = "name=\(editName.text!)&weight=\(editWeight.text!)&height=\(editHeight.text!)"
         var url:URL = URL(string: "http://39.106.156.178/test.php")!
-        postRequest(url: url, postString: postString)
+        postRequest(url: url, postString: postString)*/
     }
     
     func postRequest(url:URL,postString:String){
@@ -110,9 +110,9 @@ class ViewController: UIViewController, WKUIDelegate{
     //请求信息
 
     @IBAction func getProfile(_ sender: UIButton) {
-        var postString:String = "APPLEID=\(email!)"
+        /*var postString:String = "APPLEID=\(email!)"
         var url:URL = URL(string: "http://39.106.156.178/test.php")!
-        requestProfile(url: url, postString: postString)
+        requestProfile(url: url, postString: postString)*/
     }
     func requestProfile(url:URL,postString:String){
         
