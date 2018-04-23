@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0C49BCE8208DC65D00C2942C /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C49BCE7208DC65D00C2942C /* Model.swift */; };
+		0C49BCEA208DC6E100C2942C /* SupportClasses.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C49BCE9208DC6E100C2942C /* SupportClasses.swift */; };
 		0C8F0CB4208A1A8A00D5A267 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C8F0CB3208A1A8A00D5A267 /* AppDelegate.swift */; };
 		0C8F0CB6208A1A8A00D5A267 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C8F0CB5208A1A8A00D5A267 /* ViewController.swift */; };
 		0C8F0CBB208A1A8A00D5A267 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0C8F0CBA208A1A8A00D5A267 /* Assets.xcassets */; };
@@ -50,6 +52,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		0C49BCE7208DC65D00C2942C /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		0C49BCE9208DC6E100C2942C /* SupportClasses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SupportClasses.swift; sourceTree = "<group>"; };
 		0C8F0CB0208A1A8A00D5A267 /* iHealthProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iHealthProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0C8F0CB3208A1A8A00D5A267 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0C8F0CB5208A1A8A00D5A267 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -128,6 +132,8 @@
 				0C8F0CBF208A1A8A00D5A267 /* Info.plist */,
 				0C8F0CE9208A2FDF00D5A267 /* Main.storyboard */,
 				0CDAFA50208B323700BE1C6A /* Login.storyboard */,
+				0C49BCE7208DC65D00C2942C /* Model.swift */,
+				0C49BCE9208DC6E100C2942C /* SupportClasses.swift */,
 			);
 			path = iHealthProject;
 			sourceTree = "<group>";
@@ -302,6 +308,8 @@
 				0C8F0CB6208A1A8A00D5A267 /* ViewController.swift in Sources */,
 				0CDAFABE208B72B000BE1C6A /* WebUIController.swift in Sources */,
 				0C8F0CB4208A1A8A00D5A267 /* AppDelegate.swift in Sources */,
+				0C49BCE8208DC65D00C2942C /* Model.swift in Sources */,
+				0C49BCEA208DC6E100C2942C /* SupportClasses.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

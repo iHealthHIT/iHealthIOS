@@ -32,7 +32,7 @@ class ViewController: UIViewController, WKUIDelegate{
     }
     
     @IBAction func loadHearRate(sender:AnyObject) {
-        url = "https://www.apple.com"
+        url = "http://39.106.156.178/iHealth/6.png"
     }
     
 
